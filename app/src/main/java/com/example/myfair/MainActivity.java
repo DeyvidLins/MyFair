@@ -38,7 +38,14 @@ public class MainActivity extends AppCompatActivity {
 
         Adapter adp = new Adapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         adp.addFragment(new FragmentMercearia(), "Mercearia");
-        adp.addFragment(new Fragment2(), "Frios");
+        adp.addFragment(new Fragment2(), "Laticínios");
+        adp.addFragment(new FragmentCarne(), "Carnes");
+        adp.addFragment(new FragmentBebida(), "Bebidas");
+        adp.addFragment(new FragmentFrutaVerduraLegume(), "Fruta/Verdura");
+        adp.addFragment(new FragmentHigiene(), "Higiene");
+        adp.addFragment(new FragmentHigiene(), "Limpeza");
+
+
         viewPager.setAdapter(adp);
 
     }

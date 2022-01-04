@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentHigiene">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="120dp"
+            android:layout_height="67dp"
+            android:text="Sabonente"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="203dp"
+            android:layout_height="67dp"
+            android:text="Shampoo" />
+
+    </LinearLayout>
+</FrameLayout>

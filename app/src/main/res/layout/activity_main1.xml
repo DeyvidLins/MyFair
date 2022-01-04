@@ -14,7 +14,6 @@
         android:layout_height="54dp"
         android:text="Arroz" />
 
-
     <CheckBox
         android:id="@+id/checkBoxt"
         android:layout_width="120dp"
